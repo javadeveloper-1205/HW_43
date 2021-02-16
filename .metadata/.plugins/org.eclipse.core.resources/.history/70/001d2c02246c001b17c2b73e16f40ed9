@@ -1,0 +1,13 @@
+import org.openqa.selenium.By;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		Function.getWebDriver(System.getProperty("os.name"));
+		Function.open("firefox", "http://alex.academy/exe/signup/www/index.php");
+		
+		Function.isElementPresent(By.id("id_fname"));
+	}
+
+}

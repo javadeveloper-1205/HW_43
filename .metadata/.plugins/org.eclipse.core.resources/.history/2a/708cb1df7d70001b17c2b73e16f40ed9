@@ -1,0 +1,7 @@
+
+public class Confirmation {
+	static void open(String browser) throws Exception {
+		Common.open("firefox", "http://alex.academy/exe/signup/www/confirmation.php");
+	}
+
+}

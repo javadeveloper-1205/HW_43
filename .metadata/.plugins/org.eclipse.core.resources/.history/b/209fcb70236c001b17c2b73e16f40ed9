@@ -1,0 +1,7 @@
+
+public class Function {
+	static void getWebDriver(String browser) {
+System.out.print(browser);
+	}
+	
+}

@@ -1,0 +1,9 @@
+
+public class SignUp {
+static void open (String browser) throws Exception {
+	Common.open(browser, "http://alex.academy/exe/signup/www/index.php");
+}
+static void validate() throws Exception {
+	
+}
+}
